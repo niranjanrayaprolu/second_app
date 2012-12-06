@@ -1,13 +1,8 @@
 <% provide(:title, 'Home') %>
-<!DOCTYPE html>
+<div class="center hero-unit">
 
-<head>
-	<title> SecondApp | <%= yield(:title) %> </title>
-</head>
-
-<body>
 	<h1>second app</h1>
 	<p> This is the home page for the <a href="www.seerakademi.com">Seer Akademi</a> </p>
-</body>
-</html>
+	<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
 

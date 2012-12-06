@@ -4,6 +4,9 @@ gem 'rails', '3.2.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'bootstrap'
+gem 'bootstrap-sass', '2.0.0'
+
 gem 'execjs'
 gem 'therubyracer',  '~> 0.11.0'
 gem 'libv8', '~> 3.11.8'
